@@ -36,13 +36,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 
-    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
+    KC_ESC, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, RESET, 
 
-    KC_TRNS, KC_TRNS, 
+    KC_TRNS, KC_ENTER, 
     KC_TRNS, KC_TRNS
   ),
 
