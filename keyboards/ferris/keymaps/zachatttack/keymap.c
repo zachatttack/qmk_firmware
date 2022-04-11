@@ -28,21 +28,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_Z, KC_X, KC_C, KC_D, KC_V, 
     KC_K, KC_H, KC_COMM,  KC_DOT, KC_SLSH, 
 
-    LT(2,KC_DELETE), LT(4,KC_BSPC), 
-    LT(1,KC_SPC), LT(3,KC_NO)
+    LT(2,KC_DELETE), LT(4,KC_SPC), 
+    LT(1,KC_BSPC), LT(3,KC_ESC)
   ),
   
 	[1] = LAYOUT_split_3x5_2( //Outside keys
-    KC_TAB, KC_NO, KC_NO, KC_NO, KC_NO, 
+    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 
-    KC_ESC, KC_NO, KC_NO, KC_NO, KC_NO, 
+    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, RESET, 
 
-    KC_TRNS, KC_ENTER, 
+    KC_TRNS, KC_TRNS, 
     KC_TRNS, KC_TRNS
   ),
 
@@ -75,7 +75,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
 	[4] = LAYOUT_split_3x5_2( //Nav
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
+    KC_TAB, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
 
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
@@ -84,8 +84,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, 
 
-    KC_TRNS, KC_TRNS, 
-    KC_TRNS, KC_TRNS
+    KC_TRNS, KC_TRNS,
+    KC_ENTER, KC_TRNS
   ),
 };
 
