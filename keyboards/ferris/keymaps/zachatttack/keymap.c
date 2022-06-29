@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   
 	[1] = LAYOUT_split_3x5_2( //Outside keys
-    CAPS_WORD, KC_NO, KC_NO, KC_NO, KC_NO, 
+    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
 
     KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, 
