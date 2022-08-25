@@ -1,2 +1,1 @@
-qmk compile -kb ferris/sweep -km zachatttack
-
+sudo util/docker_build.sh ferris/sweep:zachatttack:flash
